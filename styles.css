@@ -1,0 +1,44 @@
+body{
+    color:white;
+    background: black;
+    margin: 0px;
+}
+
+header{
+    border-bottom: solid 2px rgb(42, 122,228);
+    padding: 20px;
+    font-size: 32px;
+    color:rgb(27, 94, 182) ;
+}
+
+section{
+    background: rgb(216,185, 193, 1);
+    padding-bottom: 90px;
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.chamada-testo {
+      margin-right: 10%;
+
+}
+   
+img{
+    height: 200px;
+}
+    
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+}
+    
+.categoria-videos img {
+    opacity 0.5;
+    height: 200px
+}
+
+.categoria-videos img:hover {
+    opacity 1.0;
+}
